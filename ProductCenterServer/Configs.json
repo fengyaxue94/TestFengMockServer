@@ -1,8 +1,5 @@
 [
-     { "include": "jdrequest/getTest.json" },
-     { "include": "jdrequest/postTest.json" },
-     { "include": "jdrequest/login.json" }
-
+     { "include": "jdrequest/getProvince.json" }
 ]
 
  

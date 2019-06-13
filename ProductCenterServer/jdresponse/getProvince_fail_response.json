@@ -1,0 +1,8 @@
+[
+  {
+    "success":"false",
+    "resultMessage":"异常，successtoken校验失败",
+    "resultCode":"0001：失败",
+    "result":{}
+  }
+]

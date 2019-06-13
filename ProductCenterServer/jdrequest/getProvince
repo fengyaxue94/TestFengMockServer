@@ -1,9 +1,0 @@
-[
-  {
-    "description":"查询京东一级地址列表",
-    "request":{
-      "method":"post",
-      "uri":"/api/area/getProvince"
-    }
-  }
-]
