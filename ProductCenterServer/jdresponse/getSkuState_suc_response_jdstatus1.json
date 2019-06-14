@@ -1,0 +1,14 @@
+[
+  {
+    "success":"true",
+    "resultMessage":"是，操作成功，京东该商品状态=已上架，可以正常请购",
+    "resultCode":"0000：正常",
+    "result":[
+      {
+        "state": 1,
+        "sku": 2580
+      }
+    ]
+
+  }
+]

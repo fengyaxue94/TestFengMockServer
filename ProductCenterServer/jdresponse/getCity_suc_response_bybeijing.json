@@ -1,0 +1,10 @@
+[
+  {
+    "success":"true",
+    "resultMessage":"是，请求成功,返回id=1北京，关联的二级地址信息",
+    "resultCode":"0000：正常",
+    "result":{
+      "北京市": 110100
+    }
+  }
+]

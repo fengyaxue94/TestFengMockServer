@@ -1,7 +1,7 @@
 [
   {
     "success":"false",
-    "resultMessage":"异常，token鉴权校验失败",
+    "resultMessage":"异常，一级城市id值不合法，请求响应失败",
     "resultCode":"0001：失败",
     "result":{}
   }

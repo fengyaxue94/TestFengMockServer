@@ -1,5 +1,7 @@
 [
-     { "include": "ProductCenterServer/jdrequest/getProvince.json" }
+     { "include": "ProductCenterServer/jdrequest/getProvince.json" },
+     { "include": "ProductCenterServer/jdrequest/getCity.json" },
+     { "include": "ProductCenterServer/jdrequest/getSkuState.json"}
 ]
 
  

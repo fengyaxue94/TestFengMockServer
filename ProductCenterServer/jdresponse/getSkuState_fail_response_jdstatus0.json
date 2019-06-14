@@ -1,0 +1,14 @@
+[
+  {
+    "success":"true",
+    "resultMessage":"是，操作成功，京东该商品状态=已下架，无法购买",
+    "resultCode":"0000：正常",
+    "result":[
+      {
+        "state": 0,
+        "sku": 2269
+      }
+    ]
+
+  }
+]
