@@ -1,6 +1,7 @@
 使用：
     1、命令窗口cd到服务器目录文件夹下
     2、执行命令：java -jar moco-0.11.0.jar start -p 8080 -g Configs.json;
+    设置编码格式：java -Dfile.encoding=utf-8 -jar moco-0.11.0.jar start -p 8080 -g Configs.json;
     3、接口：http://本机ip:8080/(uri)
 ProductCenterServer服务主要用途：
 1、为商城商品服务提供mock服务；

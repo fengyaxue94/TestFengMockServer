@@ -1,0 +1,31 @@
+[
+  {
+    "description":"采购平台提供接口获取采购商类目接口,正常获取商品类目信息",
+    "request":{
+      "method":"post",
+      "uri":"/api/goods/image/add",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "skuId":"1000000010",
+        "images":[{
+          "id":"232",
+          "url":"http://www.baidu.com/343242432/wewr.jpg",
+          "name":"首页展示",
+          "isMaster":0,
+          "desc":"首页需要展示的图片",
+          "sort":12,
+          "type":1
+        }
+        ]
+      }
+    },
+    "response":{
+      "file":"JuxiangeAPI/apiresponse/responsebyaddImage/addImage_suc_response.json",
+      "headers":{
+        "content-type":"application/json"
+      }
+    }
+  }
+]

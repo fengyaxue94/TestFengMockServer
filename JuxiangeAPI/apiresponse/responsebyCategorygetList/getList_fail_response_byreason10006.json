@@ -1,0 +1,11 @@
+[
+  {
+    "success":"false",
+    "resultMessage":"操作失败，参数categoryId不在该不在类目级别范围",
+    "resultCode":"10006",
+    "result":[
+      {
+      }
+    ]
+  }
+]

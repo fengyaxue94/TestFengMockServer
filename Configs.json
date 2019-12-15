@@ -1,7 +1,13 @@
 [
      { "include": "ProductCenterServer/jdrequest/getProvince.json" },
      { "include": "ProductCenterServer/jdrequest/getCity.json" },
-     { "include": "ProductCenterServer/jdrequest/getSkuState.json"}
+     { "include": "ProductCenterServer/jdrequest/getSkuState.json"},
+     { "include": "JuxiangeAPI/apirequest/getAccessToken.json"},
+     { "include": "JuxiangeAPI/apirequest/categoryGetList.json"},
+     { "include": "JuxiangeAPI/apirequest/addBrand.json"},
+     { "include": "JuxiangeAPI/apirequest/updateBrand.json"},
+     { "include": "JuxiangeAPI/apirequest/addImage.json"}
+
 ]
 
  

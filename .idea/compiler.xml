@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ApiWebServer" />
+        <module name="JuxiangeAPI" />
         <module name="MallWebServer" />
         <module name="OrderCenterServer" />
         <module name="ProductCenterServer" />
@@ -14,5 +15,8 @@
         <module name="SupplierWebServer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JuxiangeAPI" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

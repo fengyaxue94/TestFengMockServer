@@ -1,0 +1,25 @@
+[
+  {
+    "description":"采购平台提供接口获取采购商类目接口,正常获取商品类目信息",
+    "request":{
+      "method":"post",
+      "uri":"/api/goods/brand/add",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "name":"耐克",
+        "id":"232",
+        "code":"10001",
+        "imageUrl":"http://www.baidu.com/343242432/wewr.jpg",
+        "desc":"test"
+      }
+    },
+    "response":{
+      "file":"JuxiangeAPI/apiresponse/responsebyaddBrand/addBrand_suc_response.json",
+      "headers":{
+        "content-type":"application/json"
+      }
+    }
+  }
+]

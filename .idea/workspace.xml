@@ -2,17 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="637f7da9-044b-40d0-9758-5086c37dac29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ProductCenterServer/jdrequest/getCity.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductCenterServer/jdrequest/getSkuState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_fail_response_error_id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_fail_response_error_token.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_suc_response_bybeijing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_suc_response_byshandong.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductCenterServer/jdresponse/getSkuState_fail_response_jdstatus0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductCenterServer/jdresponse/getSkuState_suc_response_jdstatus1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/JuxiangeAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apirequest/addBrand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apirequest/addImage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apirequest/categoryGetList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apirequest/getAccessToken.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apirequest/updateBrand.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10001.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10002.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10004.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10005.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10006.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_suc_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyaddBrand/addBrand_suc_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyaddImage/addImage_suc_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20003.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20004.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20005.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20006.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20007.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_suc_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyupdateBrand/updateBrand_suc_response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JuxiangeAPI/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moco-0.11.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Configs.json" beforeDir="false" afterPath="$PROJECT_DIR$/Configs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductCenterServer/jdresponse/getProvince_fail_response.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductCenterServer/jdresponse/getProvince_fail_response.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductCenterServer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProductCenterServer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,6 +43,7 @@
     <ignored path="$PROJECT_DIR$/SupplierWebServer/target/" />
     <ignored path="$PROJECT_DIR$/PurchaserWebServer/target/" />
     <ignored path="$PROJECT_DIR$/ApiWebServer/target/" />
+    <ignored path="$PROJECT_DIR$/JuxiangeAPI/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,28 +122,45 @@
     <session id="1654809996">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="json" value="664" />
+          <entry key="json" value="2143" />
+          <entry key="md" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="664" />
+          <entry key="JSON" value="2143" />
+          <entry key="Markdown" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="17" />
+          <entry key="json" value="104" />
+          <entry key="md" value="14" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="17" />
+          <entry key="JSON" value="104" />
+          <entry key="Markdown" value="14" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -129,73 +168,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Configs.json">
+        <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apirequest/updateBrand.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="67" lean-forward="true" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_fail_response_error_token.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getProvince_suc_response.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1036">
-              <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getProvince_fail_response.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_suc_response_byshandong.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdrequest/getSkuState.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getSkuState_fail_response_jdstatus0.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="532">
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getSkuState_suc_response_jdstatus1.json">
+        <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apirequest/addImage.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="532">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -203,13 +188,61 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdrequest/getCity.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="28">
+              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apirequest/addBrand.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="16" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apirequest/categoryGetList.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="12" column="7" selection-start-line="6" selection-start-column="5" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/api/area/getCity</find>
+      <find>&quot;id&quot;</find>
+      <find>ProductCenterServer/jdresponse</find>
+      <find>&quot;content-type&quot;:&quot;application/x-www-form-urlencoded&quot;</find>
+      <find>categoryGetList</find>
+      <find>&quot;appSecret&quot;</find>
+      <find>&quot;/api/oauth/getList&quot;</find>
+      <find>&quot;forms&quot;:</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/api/oauth/getAccessToken</replace>
+      <replace>&quot;appSecret&quot;</replace>
+      <replace>JuxiangeAPI/apiresponse</replace>
+      <replace>/apiresponse/responsebygetAccessToken</replace>
+      <replace>&quot;content-type&quot;:&quot;application/json&quot;</replace>
+      <replace>getList</replace>
+      <replace>&quot;categoryId&quot;</replace>
+      <replace>&quot;/api/goods/category/getList&quot;</replace>
+      <replace>&quot;json&quot;:</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -218,8 +251,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ProductCenterServer/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ProductCenterServer/README.md" />
         <option value="$PROJECT_DIR$/ProductCenterServer/jdrequest/getProvince" />
         <option value="$PROJECT_DIR$/ProductCenterServer/Configs.json" />
         <option value="$PROJECT_DIR$/ProductCenterServer/jdresponse/getProvince_suc_response.json" />
@@ -230,10 +261,31 @@
         <option value="$PROJECT_DIR$/ProductCenterServer/jdresponse/getProvince_fail_response.json" />
         <option value="$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_fail_response_error_id.json" />
         <option value="$PROJECT_DIR$/ProductCenterServer/jdrequest/getCity.json" />
-        <option value="$PROJECT_DIR$/Configs.json" />
         <option value="$PROJECT_DIR$/ProductCenterServer/jdrequest/getSkuState.json" />
         <option value="$PROJECT_DIR$/ProductCenterServer/jdresponse/getSkuState_fail_response_jdstatus0.json" />
         <option value="$PROJECT_DIR$/ProductCenterServer/jdresponse/getSkuState_suc_response_jdstatus1.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/package.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apirequest/getAccessToken.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_suc_response.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apirequest/categoryGetList.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_suc_response.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10006.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10005.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10004.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10002.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10001.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10000.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apirequest/addBrand.json" />
+        <option value="$PROJECT_DIR$/ProductCenterServer/README.md" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyupdateBrand/updateBrand_suc_response.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apirequest/updateBrand.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyaddBrand/addBrand_suc_response.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyaddImage/addImage_suc_response.json" />
+        <option value="$PROJECT_DIR$/Configs.json" />
+        <option value="$PROJECT_DIR$/JuxiangeAPI/apirequest/addImage.json" />
       </list>
     </option>
   </component>
@@ -250,10 +302,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="392" />
+    <option name="width" value="1560" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -272,6 +323,44 @@
             <path>
               <item name="TestFengMockServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFengMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="JuxiangeAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFengMockServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFengMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="JuxiangeAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="apirequest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFengMockServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFengMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="JuxiangeAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="apiresponse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFengMockServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFengMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="JuxiangeAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="apiresponse" type="462c0819:PsiDirectoryNode" />
+              <item name="responsebyaddBrand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFengMockServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFengMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="JuxiangeAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="apiresponse" type="462c0819:PsiDirectoryNode" />
+              <item name="responsebyaddImage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFengMockServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFengMockServer" type="462c0819:PsiDirectoryNode" />
+              <item name="JuxiangeAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="apiresponse" type="462c0819:PsiDirectoryNode" />
+              <item name="responsebyupdateBrand" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFengMockServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFengMockServer" type="462c0819:PsiDirectoryNode" />
               <item name="ProductCenterServer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,35 +369,38 @@
               <item name="ProductCenterServer" type="462c0819:PsiDirectoryNode" />
               <item name="jdrequest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TestFengMockServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFengMockServer" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductCenterServer" type="462c0819:PsiDirectoryNode" />
-              <item name="jdresponse" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560505374417" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576414700606" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="G:/IdeaProjects/AutoTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\fengyaxue\IdeaProjects\TestFengMockServer" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\fengyaxue\IdeaProjects\TestFengMockServer\JuxiangeAPI\apirequest" />
+      <recent name="C:\fengyaxue\IdeaProjects\TestFengMockServer" />
+      <recent name="C:\fengyaxue\IdeaProjects\TestFengMockServer\JuxiangeAPI\apiresponse\responsebyCategorygetList" />
       <recent name="C:\fengyaxue\ordertest\TestFengMockServer\ProductCenterServer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\fengyaxue\IdeaProjects\TestFengMockServer\JuxiangeAPI\apiresponse\responsebygetAccessToken" />
+      <recent name="C:\fengyaxue\IdeaProjects\TestFengMockServer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,17 +428,32 @@
       <workItem from="1560332350655" duration="7151000" />
       <workItem from="1560434513093" duration="4144000" />
       <workItem from="1560477038021" duration="18552000" />
+      <workItem from="1560595299196" duration="1300000" />
+      <workItem from="1560737498529" duration="654000" />
+      <workItem from="1560916242576" duration="239000" />
+      <workItem from="1561344255693" duration="2203000" />
+      <workItem from="1561428040925" duration="1198000" />
+      <workItem from="1562051474588" duration="596000" />
+      <workItem from="1562232378119" duration="15000" />
+      <workItem from="1563957462091" duration="522000" />
+      <workItem from="1566297284058" duration="52000" />
+      <workItem from="1575184541040" duration="438000" />
+      <workItem from="1575189486376" duration="159000" />
+      <workItem from="1575270537663" duration="41587000" />
+      <workItem from="1576133459225" duration="488000" />
+      <workItem from="1576145605987" duration="537000" />
+      <workItem from="1576202714913" duration="2180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29847000" />
+    <option name="totallyTimeSpent" value="82015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="314" y="0" width="1248" height="838" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23525469" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33781514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -355,7 +462,7 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298351" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -363,8 +470,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3134752" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.10279001" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -390,20 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OrderCenterServer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestFengMockServer.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MallWebServer/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PurchaserWebServer/pom.xml">
@@ -419,100 +514,342 @@
     <entry file="file://$PROJECT_DIR$/SupplierWebServer/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProductCenterServer/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="672">
-            <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdrequest/getProvince" />
-    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_fail_response_error_id.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdrequest/getCity.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_fail_response_error_token.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdrequest/getProvince.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="8" lean-forward="true" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_suc_response_bybeijing.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="21" lean-forward="true" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getProvince_fail_response.json">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getProvince_suc_response.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1036">
-          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getProvince_fail_response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_suc_response_bybeijing.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MallWebServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_suc_response_byshandong.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configs.json">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="67" lean-forward="true" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+        <state relative-caret-position="168">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdrequest/getSkuState.json">
+    <entry file="file://$PROJECT_DIR$/OrderCenterServer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="140">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getSkuState_fail_response_jdstatus0.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="336">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getCity_fail_response_error_id.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/package.json" />
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20004.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20005.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdresponse/getSkuState_suc_response_jdstatus1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="196">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20007.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20003.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_fail_response_byreason20006.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdrequest/getProvince.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-610">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdrequest/getSkuState.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10006.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10005.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10004.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10002.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10001.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_fail_response_byreason10000.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyCategorygetList/getList_suc_response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="1" lean-forward="true" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apirequest/getAccessToken.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebygetAccessToken/getAccessToken_suc_response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="20" column="5" lean-forward="true" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="6" column="21" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyupdateBrand/updateBrand_suc_response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyaddImage/addImage_suc_response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apiresponse/responsebyaddBrand/addBrand_suc_response.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apirequest/updateBrand.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apirequest/addBrand.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apirequest/categoryGetList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="7" selection-start-line="6" selection-start-column="5" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductCenterServer/jdrequest/getCity.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductCenterServer/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="140">
+            <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JuxiangeAPI/apirequest/addImage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MallWebServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

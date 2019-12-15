@@ -15,6 +15,8 @@
         <module>SupplierWebServer</module>
         <module>PurchaserWebServer</module>
         <module>ApiWebServer</module>
+        <module>JuxiangeAPI</module>
+        <module>JuxiangeAPI</module>
     </modules>
 
 

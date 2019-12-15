@@ -1,0 +1,11 @@
+[
+  {
+    "success":"false",
+    "resultMessage":"操作失败，入参类型转化错误",
+    "resultCode":"10004",
+    "result":[
+      {
+      }
+    ]
+  }
+]

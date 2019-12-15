@@ -1,0 +1,11 @@
+[
+  {
+    "success":"false",
+    "resultMessage":"操作失败，参数categoryId超过限制长度",
+    "resultCode":"10005",
+    "result":[
+      {
+      }
+    ]
+  }
+]

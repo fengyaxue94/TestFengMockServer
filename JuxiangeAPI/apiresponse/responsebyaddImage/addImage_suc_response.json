@@ -1,0 +1,22 @@
+[
+  {
+    "success":"true",
+    "resultMessage":"操作成功，添加图片信息成功",
+    "resultCode":"00000",
+    "result":[
+      {
+        "skuId":"1000000010",
+        "images":[{
+        "id":"232",
+        "url":"http://www.baidu.com/343242432/wewr.jpg",
+        "name":"首页展示",
+        "isMaster":0,
+        "desc":"首页需要展示的图片",
+        "sort":12,
+        "type":1
+        }
+        ]
+      }
+    ]
+  }
+]

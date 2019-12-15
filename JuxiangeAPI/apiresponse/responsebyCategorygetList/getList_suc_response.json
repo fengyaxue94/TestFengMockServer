@@ -1,0 +1,16 @@
+[
+  {
+    "success":"true",
+    "resultMessage":"操作成功，获取采购商类目信息成功",
+    "resultCode":"00000",
+    "result":[
+      {
+        "id":43,
+        "level":1,
+        "name":"IT物质",
+        "parentId":33,
+        "code":"10002"
+      }
+    ]
+  }
+]

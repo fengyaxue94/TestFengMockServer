@@ -1,0 +1,24 @@
+[
+  {
+    "success":"true",
+    "resultMessage":"操作成功，accessToken校验通过",
+    "resultCode":"00000：成功",
+    "result":[
+      {
+        "accessToken": {
+          "template": "${req.forms['appKey']}"
+        },
+        "accessTokenExpire":{
+          "template": "${req.forms['appSecret']}"
+        },
+        "refreshToken":{
+          "template": "${req.forms['appKey']}"
+        },
+        "refreshTokenExpire": {
+          "template": "${req.forms['appSecret']}"
+        }
+      }
+    ]
+
+  }
+]

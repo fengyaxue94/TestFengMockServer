@@ -1,0 +1,11 @@
+[
+  {
+    "success":"false",
+    "resultMessage":"操作失败，参数值不正确，没有该类目级别",
+    "resultCode":"10002",
+    "result":[
+      {
+      }
+    ]
+  }
+]
